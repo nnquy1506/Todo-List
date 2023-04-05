@@ -1,4 +1,5 @@
-import { BaseTextFieldProps } from '@mui/material'
+import { BaseTextFieldProps } from "@mui/material";
 export interface TextFieldCustomProps extends BaseTextFieldProps {
-    placeholder: string
+  placeholder: string;
+  onChange?: any;
 }
